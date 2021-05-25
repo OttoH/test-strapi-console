@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kycs",
+  "info": {
+    "name": "kyc",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "create_at": {
+      "type": "datetime"
+    },
+    "granted_at": {
+      "type": "datetime"
+    },
+    "comment": {
+      "type": "text"
+    },
+    "member": {
+      "model": "member"
+    }
+  }
+}

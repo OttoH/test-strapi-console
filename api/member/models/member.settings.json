@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "members",
+  "info": {
+    "name": "member"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phone_num": {
+      "type": "string"
+    },
+    "identity_num": {
+      "type": "string",
+      "required": true
+    },
+    "create_at": {
+      "type": "datetime"
+    },
+    "granted_at": {
+      "type": "datetime"
+    }
+  }
+}
